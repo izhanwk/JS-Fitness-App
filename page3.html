@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caloric Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <div id="container">
+        <div id="calculator2">
+            <p id="h1">Your Fitness Tracker</p>
+            <div class="metercon">
+                <div class="meter">
+                    <div class="fill">
+                    </div>
+                    <div class="metercover"> 
+                        <p class="numbers">
+                            0/3200
+                            <p class="Calories">Calories</p>   
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="metercon2">
+                <div class="meter2">
+                    <div class="fill2">
+                    </div>
+                    <div class="metercover" id="metercover2"> 
+                        <p class="numbers">
+                            0/125
+                            <p class="Calories">Protein (grams)</p>   
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="selectsearch">
+                <div class="searchbar-con">
+                    <div class="searchbar">
+                        <p id="fSelect">Select Food</p>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                    <div class="menu">
+                        <input type="text" placeholder="Search Food" id="searchfood">
+                        <ul class="options">
+                        </ul>
+                    </div>
+                </div>
+                <input type="number" placeholder="Enter Quantity" class="size" id="sizeInput"></input>
+            </div>
+
+            <div class="add">
+                <p style="color: white; font-family: Arial, Helvetica, sans-serif;">Add</p>
+            </div>
+
+            <div class="add2" id="reset">
+                <p style="color: white; font-family: Arial, Helvetica, sans-serif;">Reset</p>
+            </div>
+
+        </div>
+    </div>
+    <script src="codes.js"></script>
+    <script src="app3.js"></script>
+    
+</body>
+</html>
