@@ -15,6 +15,7 @@ let fill2 = document.querySelector(".fill2");
 let meterCon = document.querySelector(".metercon");
 let meterCon2 = document.querySelector(".metercon2");
 let reset = document.querySelector("#reset");
+let firstPage = document.querySelector(".firstpg");
 
 // let genderValue = localStorage.getItem("gendervalue");
 let goalValue = localStorage.getItem("goalValue");
@@ -279,3 +280,7 @@ function intialValues() {
     meterCover2.innerHTML = reqProtein + proteinH;
   }
 }
+
+firstPage.addEventListener("click", () => {
+  window.location.replace("index.html");
+});

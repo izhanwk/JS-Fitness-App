@@ -289,3 +289,15 @@ li:hover {
   background-color: red;
   cursor: pointer;
 }
+
+.firstpg {
+  background-color: #001d3d;
+  border-radius: 20px;
+  padding: 7px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.firstpg:hover {
+  background-color: #003566;
+}
